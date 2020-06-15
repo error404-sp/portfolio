@@ -262,13 +262,13 @@ position: absolute;
     font-size: 16px;
       top: 600px;
   }
-  .frontpage{
-
-    
-      background: white;
+  .frontpage
+ {
+     background: white;
       height: 600px;
       width: 100%;
     }
+}
 a{
   text-decoration: none;
   outline: none;
@@ -301,11 +301,11 @@ a{
   text-align: center;
 }
 .card1 {
-position: relative;
-width: 350px;
-height: 250px;
-transition: all 0.6s ease;
-transform-style: preserve-3d;
+  position: relative;
+  width: 350px;
+  height: 250px;
+  transition: all 0.6s ease;
+  transform-style: preserve-3d;
 }
 .front, .back {
   position: absolute;
@@ -338,6 +338,4 @@ transform-style: preserve-3d;
 .back {
   transform: rotateY(180deg);
 }
-.proje{
-  text-decoration: #6c7394;
-}
+
