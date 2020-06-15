@@ -338,4 +338,7 @@ a{
 .back {
   transform: rotateY(180deg);
 }
-
+.img2{
+  width: 350px;
+  height:250px;
+  }
