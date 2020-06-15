@@ -267,8 +267,10 @@ position: absolute;
      background: white;
       height: 600px;
       width: 100%;
-    }
-grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));}
+.projects{
+ top:1200px;
 }
 a{
   text-decoration: none;
