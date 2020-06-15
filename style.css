@@ -227,7 +227,7 @@ position: absolute;
   h1{
     top: 20%;
     font-size: 39px;
-    left: 10%;
+    left: 5%;
     z-index: 4;
   }
   img{
@@ -242,7 +242,7 @@ position: absolute;
   }
   h2{
     top: 35%;
-    left: 35%;
+    left: 40%;
   }
   .me{
     left: 35%;
@@ -259,7 +259,9 @@ position: absolute;
     height: 550px;
     font-size: 16px;
   }
-  
+  .frontpage{
+      background: white;
+    }
  
 }
 a{
