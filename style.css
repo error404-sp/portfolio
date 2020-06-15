@@ -1,10 +1,10 @@
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(to right,white,#dddefa)
+    background-image: linear-gradient(to right,white,#dddefa);
 }
 .frontpage{
-   max-width: 100%;
-   height: 450px;
+   width: 100%;
+   height: 500px;
 
 }
 .loading{
@@ -131,7 +131,7 @@ rt{
 h2:hover{
     color: black;
 }
-img{
+.img1{
   width: 120px;
   height: 290px;
   position: absolute;
@@ -158,48 +158,48 @@ img{
 }
 .Home:hover{
   color: #28235c;
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-color: #28235c;
-  transform: scale(1.05);
+  background : whitesmoke;
+  border-radius: 25px;
+  border: solid 2px #28235c;
+  padding-left: 10px;
 }
 .About {
   padding-right: 10px;
 }
 .About:hover{
   color: #28235c;
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-color: #28235c;
-  transform: scale(1.05);
+  background : whitesmoke;
+  border-radius: 25px;
+  border: solid 2px #28235c;
+  padding-left: 10px;
 }
 .Projects{
   padding-right: 10px;
 }
 .Projects:hover{
   color: #28235c;
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-color: #28235c;
-  transform: scale(1.05);
+  background : whitesmoke;
+  border-radius: 25px;
+  border: solid 2px #28235c;
+  padding-left: 10px;
 }
 .Contact{
   padding-right: 5px;
 }
 .Contact:hover{
   color: #28235c;
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-color: #28235c;
-  transform: scale(1.05);
+  background : whitesmoke;
+  border-radius: 25px;
+  border: solid 2px #28235c;
+  padding-left: 10px;
 }
 .about{
   background: #dddefa;
   position: absolute;
-  top: 451px;
+  top: 500px;
   width: 100%;
   left: 0px;
-  height: 300px;
+  height: 400px;
   text-align: center;
 }
 .me{
@@ -207,7 +207,7 @@ width: 200px;
 height: 200px;
 border-radius: 50%;
  top: 15px;
- 
+ left: 5px;
 border: solid 5px #6c7394;
 position: absolute;
 
@@ -227,11 +227,11 @@ position: absolute;
   h1{
     top: 20%;
     font-size: 39px;
-    left: 20%;
+    left: 2%;
     z-index: 4;
   }
-  img{
-    top: 150px;
+  .img1{
+    top: 200px;
   }
   .loading{
     font-size: 24px;
@@ -242,7 +242,7 @@ position: absolute;
   }
   h2{
     top: 35%;
-    left: 30%;
+    left: 40%;
   }
   .me{
     left: 35%;
@@ -256,12 +256,87 @@ position: absolute;
     top: 45%;
   }
   .about{
-    height: 550px;
+    height: 600px;
     font-size: 16px;
   }
- 
+  .frontpage{
+    background: white;
+    height: 600px;
+  }
+  .projects{
+    top: 2000px;
+  }
+  
 }
 a{
   text-decoration: none;
   outline: none;
+}
+
+
+.projects{
+  position: absolute;
+  top: 900px;
+  left: 0px;
+  height: 1000px;
+  width: 100%;
+  text-align: center;
+}
+.cards{
+  top: 20px;
+  left: 5px;
+  background: #6c7394;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+ margin: 10px;
+  height: 900px;
+}
+.card {
+  
+  
+  padding: 10px 12px;
+  perspective: 350px;
+  text-align: center;
+}
+.card1 {
+position: relative;
+width: 350px;
+height: 250px;
+transition: all 0.6s ease;
+transform-style: preserve-3d;
+}
+.front, .back {
+  position: absolute;
+  background: #dddefa;
+  top: 0;
+  left: 0;
+  width: 350px;
+  height: 250px;
+  border-radius: 5px;
+  color: #28235c;
+  box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+  backface-visibility: hidden;
+}
+.front {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+.back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+.card1:hover  {
+  transform: rotateY(180deg);
+}
+.back {
+  transform: rotateY(180deg);
+}
+.proje{
+  text-decoration: #6c7394;
 }
