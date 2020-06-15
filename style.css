@@ -227,7 +227,7 @@ position: absolute;
   h1{
     top: 20%;
     font-size: 39px;
-    left: 5%;
+    left: 2%;
     z-index: 4;
   }
   img{
@@ -263,6 +263,7 @@ position: absolute;
   .frontpage{
       background: white;
       height: 600px;
+      width: 100%;
     }
  
 }
