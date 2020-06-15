@@ -281,7 +281,7 @@ a{
 
 
 .projects{
-  position: absolute;
+  position: relative
   top: 900px;
   left: 0px;
   height: 1000px;
@@ -291,8 +291,8 @@ a{
 .cards{
   top: 20px;
   left: 5px;
-  background: #6c7394;
-  width: 100%;
+  
+  max-width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
  margin: 10px;
