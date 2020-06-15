@@ -271,7 +271,7 @@ position: absolute;
 }
   .projects{
     top:1700px;
-     height: 1500px;
+     height: 3000px;
      }
 }
 a{
@@ -296,7 +296,7 @@ a{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
  margin: 10px;
-  height: 900px;
+  height: auto;
 }
 .card {
   
