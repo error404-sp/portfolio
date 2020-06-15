@@ -256,31 +256,19 @@ position: absolute;
     top: 45%;
   }
   .about{
-<<<<<<< HEAD
-    height: 600px;
-=======
+
     height: 700px;
->>>>>>> 071f5df031d91bf14fa924da7d2d4fe608907703
+
     font-size: 16px;
       top: 600px;
   }
   .frontpage{
-<<<<<<< HEAD
-    background: white;
-    height: 600px;
-  }
-  .projects{
-    top: 2000px;
-  }
-  
-=======
+
+    
       background: white;
       height: 600px;
       width: 100%;
     }
- 
->>>>>>> 071f5df031d91bf14fa924da7d2d4fe608907703
-}
 a{
   text-decoration: none;
   outline: none;
