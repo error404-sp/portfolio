@@ -281,7 +281,7 @@ a{
 
 
 .projects{
-  position: relative
+  position: absolute;
   top: 900px;
   left: 0px;
   height: 1000px;
