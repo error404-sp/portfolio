@@ -284,6 +284,7 @@ a{
   height: 1000px;
   width: 100%;
   text-align: center;
+  background: white;
   
 }
 .cards{
@@ -354,3 +355,8 @@ a{
 .img2{
   border-radius: 5px;
  }
+.img3{
+ width: 250px;
+ height: 250px;
+}
+}
