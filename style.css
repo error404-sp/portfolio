@@ -256,11 +256,13 @@ position: absolute;
     top: 45%;
   }
   .about{
-    height: 600px;
+    height: 700px;
     font-size: 16px;
+      top: 600px;
   }
   .frontpage{
       background: white;
+      height: 600px;
     }
  
 }
