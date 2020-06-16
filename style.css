@@ -376,10 +376,10 @@ justify-content: center;
 }
 .icon{
 background: white;
-width: 25px;
-height: 25px;
+width: 30px;
+height: 30px;
 border-radius: 50%;
-left: 2px;
+padding: 5px;
 margin: 5px;
 }
 @media (max-width:700px)
