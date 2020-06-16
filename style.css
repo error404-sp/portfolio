@@ -393,4 +393,8 @@ padding: 10px;
     color: #28235c;
     background: white;
 }
-
+.nav:hover{
+    color: #28235c;
+}
+.int{
+    color: #28235c;}
