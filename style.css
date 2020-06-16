@@ -369,6 +369,12 @@ a{
     position: absolute;
     top: 1900px;
     }
+.icons{
+display: flex;
+}
+.icon{
+color: white;
+}
 @media (max-width:700px)
     {
         .contact{
