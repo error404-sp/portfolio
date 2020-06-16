@@ -377,7 +377,7 @@ justify-content: center;
 }
 .icon{
 
-
+padding: 10px;
 
 
 }
@@ -385,11 +385,12 @@ justify-content: center;
     {
         .contact{
             top:3400px;
-            height: 200px;}}
-a:hover{
-    color: #28235c;
-    background: white;
+            height: 200px;}
 }
 .button:hover{
     padding: 5px;
+    border-radius:50%;
+    color: #28235c;
+    background: white;
 }
+
