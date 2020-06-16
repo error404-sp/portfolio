@@ -281,7 +281,7 @@ a{
   position: absolute;
   top: 900px;
   left: 0px;
-  height: 1000px;
+  height: 1400px;
   width: 100%;
   text-align: center;
   background: white;
@@ -367,7 +367,7 @@ a{
     background: #28235c;
     color: white;
     position: absolute;
-    top: 2700px;
+    top: 2400px;
     }
 .icons{
 display: flex;
