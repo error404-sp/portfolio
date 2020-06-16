@@ -390,3 +390,6 @@ a:hover{
     color: #28235c;
     background: white;
 }
+.button:hover{
+    padding: 5px;
+}
