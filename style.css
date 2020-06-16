@@ -387,4 +387,8 @@ margin: 5px;
     {
         .contact{
             top:3400px;
-            height: 200px;}
+            height: 200px;}}
+a:hover{
+    color: #28235c;
+    background: white;
+}
