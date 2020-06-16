@@ -1,6 +1,7 @@
 *{
 scroll-behaviour: smooth;
-}body{
+}
+body{
     font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(to right,white,#dddefa);
 }
