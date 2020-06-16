@@ -362,12 +362,12 @@ a{
 }
 .contact{
     width: 100%;
-    height: 600px;
+    height: 300px;
     text-align: center;
     background: #28235c;
     color: white;
     position: absolute;
-    top: 2100px;
+    top: 2700px;
     }
 .icons{
 display: flex;
