@@ -362,7 +362,7 @@ a{
 }
 .contact{
     width: 100%;
-    height: 900;
+    height: 600px;
     text-align: center;
     background: #28235c;
     color: white;
@@ -386,4 +386,4 @@ margin: 5px;
     {
         .contact{
             top:3400px;
-            height: 900px;}
+            height: 600px;}
