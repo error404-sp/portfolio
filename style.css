@@ -389,7 +389,7 @@ padding: 10px;
 }
 .button:hover{
     padding: 5px;
-    border-radius:50%;
+    border-radius:25px;
     color: #28235c;
     background: white;
 }
