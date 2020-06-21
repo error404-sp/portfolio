@@ -121,6 +121,7 @@ rt{
   mark{
       color: white;
       background-color: #28235c;
+      border-radius: 5px;
   }
  h2{
  position: absolute;
