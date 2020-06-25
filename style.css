@@ -306,7 +306,7 @@ a{
   
   
   padding: 15px 15px;
-  perspective: 350px;
+  perspective: 300px;
   text-align: center;
 }
 .card1 {
@@ -321,8 +321,8 @@ a{
   background: #dddefa;
   top: 0;
   left: 0;
-  width: 350px;
-  height: 250px;
+  width: 300px;
+  height: 200px;
   border-radius: 5px;
   color: #28235c;
   box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
@@ -348,8 +348,8 @@ a{
   transform: rotateY(180deg);
 }
 .img2{
-  width: 350px;
-  height:250px;
+  width: 300px;
+  height:200px;
   }
 @media (max-width: 700px)
 {
