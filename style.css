@@ -350,6 +350,7 @@ a{
 .img2{
   width: 300px;
   height:200px;
+    border-radius: 5px;
   }
 @media (max-width: 700px)
 {
