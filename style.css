@@ -323,7 +323,7 @@ a{
   left: 0;
   width: 300px;
   height: 200px;
-  border-radius: 5px;
+  border-radius: 10px;
   color: #28235c;
   box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
   backface-visibility: hidden;
@@ -350,7 +350,7 @@ a{
 .img2{
   width: 300px;
   height:200px;
-    border-radius: 5px;
+    border-radius: 10px;
   }
 @media (max-width: 700px)
 {
